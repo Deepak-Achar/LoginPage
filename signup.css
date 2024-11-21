@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #f9f9f9;
     font-family: sans-serif;
@@ -56,10 +56,13 @@
   .input-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ccc; 
     padding: 5px 10px;
-    background-color: #f1f1f1;
+    top: hidden;
+    border: none;
+    border-bottom: 2px solid #000;
+     outline: none; 
+      width: 300px;
   }
   
   .input-container input {
